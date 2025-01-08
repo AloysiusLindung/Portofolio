@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parlindungan Situmorang - Portofolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+	<link rel="icon" href="./img/logo.JPG">
+
+	<!-- 
+	 * Font awesome
+	 -->
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	 <!-- 
+	  * Meta
+	  -->
+		  <!-- Primary Meta Tags -->
+	<title>Parlindungan Situmorang - Portofolio</title>
+	<meta name="title" content="Parlindungan Situmorang - Portofolio">
+	<meta name="description" content="Parlindungan Situmorang portofolio">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://metatags.io/">
+	<meta property="og:title" content="Parlindungan Situmorang - Portofolio">
+	<meta property="og:description" content="Parlindungan Situmorang portofolio">
+	<meta property="og:image" content="./img/logo.JPG">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://metatags.io/">
+	<meta property="twitter:title" content="Parlindungan Situmorang - Portofolio">
+	<meta property="twitter:description" content="Parlindungan Situmorang portofolio">
+	<meta property="twitter:image" content="./img/logo.JPG">	  
+</head>
+<body id="body">
+	<div class="loading" id="loading">
+		<div class="loading-item"></div>
+	</div>
+
+	<div class="main">
+		<div class="navbar notload" id="navbar">
+			<div class="container">
+				<div class="navbar-nav">
+					<div class="navbar-brand">
+						<img src="./img/logo.JPG" alt="logo" draggable="false">
+						<span>Parlindungan Situmorang</span>
+					</div>
+
+					<span class="navbar-toggler" id="toggler"><i onclick="toggleNavbar()" id="navbar-toggler" class="fas fa-bars"></i></span>
+
+					<div class="navs">
+						<ul id="navs">
+							<li><a class="btn" href="#skills" onclick="toggleNavbar()">Skills</a></li>
+							<li><a class="btn" href="#tools" onclick="toggleNavbar()">Tools</a></li>
+							<li><a class="btn" href="#projects" onclick="toggleNavbar()">Projects</a></li>
+							<li><a class="btn" href="#certificates" onclick="toggleNavbar()">Certificates</a></li>
+						</ul>
+					</div>					
+				</div>
+			</div>
+		</div>
+
+		<div class="jumbotron-box">
+			<div class="container">
+				<div class="jumbotron">
+					<div class="jumbotron-item notload">
+						<img src="./img/logo.JPG" alt="logo" draggable="false">
+					</div>
+					<div class="jumbotron-item notload" notload-delay="true">
+						<h1>Hi! I'm <strong>Parlindungan</strong>...</h1>
+						<p>you can call me <strong>Lindung</strong>, I'm a <strong>Statistics Student</strong> at <strong>Diponegoro University</strong> passionate about <strong>Data Science</strong> and <strong>Machine Learning</strong>.
+							I enjoy creating <strong>predictive models</strong> and optimizing algorithms with <strong>Python</strong>. My focus is on <strong>data preprocessing</strong>, <strong>feature engineering</strong>, and <strong>model evaluation</strong>.</p>
+						
+						<div class="sosmed">
+							<a href="https://www.linkedin.com/in/parlindungan-situmorang" target="_blank"><i class="fab fa-linkedin"></i></a>
+							<a href="https://www.kaggle.com/parlindungans" target="_blank"><i class="fab fa-kaggle"></i></a>
+							<a href="https://instagram.com/lindung_aloysius" target="_blank"><i class="fab fa-instagram"></i></a>
+							<a href="https://wa.me/+6281278281231" target="_blank"><i class="fab fa-whatsapp"></i></a>
+						</div>
+						
+						<button class="btn" onclick="toggleDmIG()">Contact me</button>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main2">
+		<!-- Wave SVG -->
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+			<path fill="#adbbc6" fill-opacity="1" d="M0,128L0,32L288,32L288,160L576,160L576,32L864,32L864,128L1152,128L1152,96L1440,96L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path>
+		</svg>
+	
+		<!-- Skills Section -->
+		<div class="skills">
+			<h1 class="skills-t" id="skills">Skills</h1>
+			<div class="container">
+				<div class="skill" onclick="window.open('https://www.python.org/', '_blank')"><i class="fab fa-python"></i> Python</div>
+				<div class="skill" onclick="window.open('https://www.r-project.org/', '_blank')"><i class="fas fa-chart-line"></i> R</div>
+				<div class="skill" onclick="window.open('https://www.javascript.com/', '_blank')"><i class="fab fa-js"></i> Javascript</div>
+				<div class="skill" onclick="window.open('https://www.w3schools.com/css/', '_blank')"><i class="fab fa-css3"></i> CSS</div>
+				<div class="skill" onclick="window.open('https://www.w3schools.com/html/', '_blank')"><i class="fab fa-html5"></i> HTML</div>
+				<div class="skill" onclick="window.open('https://www.ibm.com/products/spss-statistics', '_blank')">SPSS</div>
+				<div class="skill" onclick="window.open('https://www.mysql.com/', '_blank')"><i class="fas fa-database"></i> MySQL</div>
+				<div class="skill" onclick="window.open('https://www.tableau.com/', '_blank')"><i class="fas fa-chart-pie"></i> Tableau</div>
+				<div class="skill" onclick="window.open('https://www.microsoft.com/en-us/microsoft-365/excel', '_blank')"><i class="fas fa-table"></i> Excel</div>
+				<div class="skill" onclick="window.open('https://www.minitab.com/', '_blank')">Minitab</div>
+				<div class="skill" onclick="window.open('https://powerbi.microsoft.com/', '_blank')">Power BI</div>
+			</div>
+		</div>
+	
+		<!-- Tools Section -->
+		<div class="skills">
+			<h1 class="skills-t" id="tools">Tools</h1>
+			<div class="container">
+				<div class="skill" onclick="window.open('https://code.visualstudio.com/', '_blank')"><i class="fas fa-code"></i> Visual Studio Code</div>
+				<div class="skill" onclick="window.open('https://www.google.com/chrome/', '_blank')"><i class="fab fa-chrome"></i> Chrome</div>
+				<div class="skill" onclick="window.open('https://www.ibm.com/products/spss-statistics', '_blank')">SPSS</div>
+				<div class="skill" onclick="window.open('https://www.minitab.com/', '_blank')">Minitab</div>
+				<div class="skill" onclick="window.open('https://powerbi.microsoft.com/', '_blank')">Power BI</div>
+				<div class="skill" onclick="window.open('https://www.tableau.com/', '_blank')"><i class="fas fa-chart-pie"></i> Tableau</div>
+				<div class="skill" onclick="window.open('https://www.microsoft.com/en-us/microsoft-365/excel', '_blank')"><i class="fas fa-table"></i> Excel</div>
+				<div class="skill" onclick="window.open('https://www.rstudio.com/', '_blank')"><i class="fas fa-cogs"></i> R Studio</div>
+			</div>
+		</div>
+	
+		<!-- Wave SVG -->
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+			<path fill="#adbbc6" fill-opacity="1" d="M0,128L0,32L288,32L288,160L576,160L576,32L864,32L864,128L1152,128L1152,96L1440,96L1440,0L1152,0L1152,0L864,0L864,0L576,0L576,0L288,0L288,0L0,0L0,0Z"></path>
+		</svg>
+	</div>	
+
+	<div class="main3">
+		<h1 id="projects">Projects</h1>
+		<p>Other projects are not here because they have been disabled, you can see the project source code on 
+			<a href="https://www.kaggle.com/parlindungans" target="_blank">my Kaggle</a> and <a href="https://public.tableau.com/profile/parlindungan.situmorang" target="_blank">my Tableau</a>.
+		 </p>		 
+		<div class="container">
+			<div class="projects">
+				<div class="project">
+					<img draggable="false" src="./img/ss1.png" alt="project1">
+					<p>"Explore <strong>COVID-19</strong> data in Indonesia with <strong>interactive visualizations</strong>. Analyze daily case trends, provincial distributions, and key metrics like new cases, deaths, and recoveries for a comprehensive view of the <strong>pandemic's impact</strong>."</p>
+					<div class="buttons">
+						<button class="btn" onclick="window.open('https://www.kaggle.com/datasets/hendratno/covid19-indonesia', '_blank')">Data</button>
+						<button class="btn" onclick="window.open('https://public.tableau.com/app/profile/parlindungan.situmorang/viz/COVID-19TrendsandDistributionbyIndonesianProvinces/Dashboard1', '_blank')">Demo</button>
+					</div>
+				</div>
+				<div class="project">
+					<img draggable="false" src="./img/ss2.png" alt="project2">
+					<p>"This project uses <strong>Tableau</strong> to analyze <strong>US flight delays</strong>, covering variables like <strong>flight date, carrier, airport, city, and state</strong>. It offers a detailed overview of flight delays from January 2017 to July 2022."</p>
+					<div class="buttons">
+						<button class="btn" onclick="window.open('https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp', '_blank')">Data</button>
+						<button class="btn" onclick="window.open('https://public.tableau.com/app/profile/parlindungan.situmorang/viz/USFlightDelay_17216551053430/USFlightDelay', '_blank')">Demo</button>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+
+	<div class="main5">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#adbbc6" fill-opacity="1" d="M0,128L0,32L288,32L288,160L576,160L576,32L864,32L864,128L1152,128L1152,96L1440,96L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+		<div class="certificates">
+		    <h1 id="certificates">Certificates</h1>
+			<div class="certificate">
+				<img src="./img/certificate.jpg" alt="HTML certificate">
+			</div>
+			<div class="certificate">
+				<img src="./img/certificate2.jpg" alt="CSS certificate">
+			</div>	
+			<div class="certificate">
+				<img src="./img/certificate3.jpg" alt="CSS certificate">
+			</div>		
+		</div>
+<!-- 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#adbbc6" fill-opacity="1" d="M0,128L0,32L288,32L288,160L576,160L576,32L864,32L864,128L1152,128L1152,96L1440,96L1440,0L1152,0L1152,0L864,0L864,0L576,0L576,0L288,0L288,0L0,0L0,0Z"></path></svg> -->
+	</div>	
+
+	<script type="text/javascript" src="./js/script.js"></script>
+
+</body>
+</html>
